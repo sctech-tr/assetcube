@@ -17,13 +17,14 @@
     "serverless"
   ],
   "dependencies": {
-    "@supabase/supabase-js": "^2.46.1",
+    "@supabase/supabase-js": "^2.76.1",
     "busboy": "^1.6.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "netlify-cli": "^17.33.0"
   },
-  "author": "sctech-tr",
+  "author": "sctech_tr",
   "license": "Apache-2.0"
 }

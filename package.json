@@ -1,0 +1,29 @@
+{
+  "name": "assetcube",
+  "version": "1.0.0",
+  "description": "serverless image hosting",
+  "main": "netlify/functions/upload.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "start": "netlify dev"
+  },
+  "keywords": [
+    "netlify",
+    "supabase",
+    "file-upload",
+    "image-hosting",
+    "serverless"
+  ],
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.1",
+    "busboy": "^1.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.33.0"
+  },
+  "author": "sctech-tr",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>assetcube</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css" />
+</head>
+<body>
+    <center><p>
+    <a href="index.html">upload</a> | 
+    <a href="faq.html">what</a> | 
+    <a href="join.html">signup</a>   
+    </p></center>
+  <center><h1>assetcube</h1></center>
+
+  <center><form id="uploadForm" enctype="multipart/form-data">
+    <label>namespace <input type="text" name="username" required></label>
+    <label>upload key <input type="password" name="uploadKey" required></label>
+    <label>choose image <input type="file" name="file" accept="image/*" required></label>
+    <button type="submit">upload</button>
+  </form></center>
+
+  <center><pre id="result"></pre></center>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
